@@ -74,7 +74,7 @@ limitations under the License.
             alert('Wrong password.');
             //window.location.href = './firebase.html';
           } //else {
-            //window.location.href = './anxietyDiary.html';
+            //window.location.href = './homepage.html';
           //}
           console.log(error);
           document.getElementById('quickstart-sign-in').disabled = false;
@@ -192,7 +192,7 @@ limitations under the License.
           // [END_EXCLUDE]
         }
         if (document.getElementById('quickstart-sign-in-status').textContent == 'Signed in') {
-            window.location.href = './anxietyDiary.html';
+            window.location.href = './homepage.html';
             firebase.auth().signOut();   // Temp solution for forcing firebase to forget you are logged in
         }
         // [START_EXCLUDE silent]
