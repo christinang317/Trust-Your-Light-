@@ -1,16 +1,43 @@
 body{
-	background-color: #86D379;
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: normal;
 }
 
-img{
+#proPic{
 	display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+
+#logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heart{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
 }
 
 p{
 	text-align: center;
 	font-size: 50px;
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+  text-align:center;
+}
+li{
+	list-style-type: none;
+	padding: 0px;
+	height: 24px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+  display:inline;
+  
 }
