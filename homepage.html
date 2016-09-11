@@ -2,7 +2,7 @@
 <html> 
 <head> 
 <title> Trust your light </title> 
-<link rel="icon" href="flashlight.png">
+<link rel="icon" href="finalflashlogo.png" style="width:100px">
 </head> 
 <style>
 body {margin:0;}
@@ -11,10 +11,10 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: pink;
+  background-color: #99d6ff;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {float: center;}
 
 ul.topnav li a {
   display: inline-block;
@@ -26,7 +26,7 @@ ul.topnav li a {
   font-size: 17px;
 }
 
-ul.topnav li a:hover {background-color: pink;}
+ul.topnav li a:hover {background-color: #b3e6ff;}
 
 ul.topnav li.icon {display: none;}
 
@@ -51,24 +51,29 @@ ul.topnav li.icon {display: none;}
   }
   ul.topnav.responsive li a {
     display: block;
-    text-align: left;
+    text-align: center;
   }
 }
 </style>
 </head>
 <body>
+<a href="./homepage.html">
+  <img id="logo" src="finalflashlogo.png" alt="Trust Your Light Logo">
+</a>
+
 <ul class="topnav" id="myTopnav">
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About Us</a></li>
   <li><a href="./chores.html">Things at Home</a></li> 
   <li><a href="./neighborhood.html">Neighborhood</a></li> 
+  <li><a href="./login.html">Login</a></li>
   <li class="icon">
     <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
   </li>
 </ul>
 
-<div style="padding-left:16px">
+<div style="padding-left:175px">
  
 </div>
 
@@ -82,15 +87,70 @@ function myFunction() {
     }
 }
 </script>
+<marquee behavior="alternate" style= "color:black; font-size: 25px">"Always do your best"</marquee>
 <b>
 <b>
 <b>
-<IMG STYLE="position:relative; TOP:80px; LEFT:550px; WIDTH:400px; HEIGHT:400px" SRC="heart-0.png">
 
+<IMG STYLE="position:relative; TOP:80px; LEFT:550px; WIDTH:400px; HEIGHT:400px" SRC="heart-0.png">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<button onclick="document.getElementById('myImage').src='heart-0.png'">Turn on the light</button>
+
+<img id="myImage" src="heart-0.png" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='heart-9.png'">Turn off the light</button>
+
+<button onclick="document.getElementById('myImage2').src='heart-5.png'">Turn on the light</button>
+
+<img id="myImage2" src="heart-5.png" style="width:100px">
+
+<button onclick="document.getElementById('myImage2').src='heart-2.png'">Turn off the light</button>
+
+
+
+
+
+
+<!--<a href="#" class="myButton">CHORES</a>
+<a href="#" class="myButton">COMMUNITY</a>
+<a href="#" class="myButton">ELDER CARE</a>
+<a href="#" class="myButton">PET CARE</a>
+<a href="#" class="myButton">SELF CARE</a>
+<a href="#" class="myButton">OUT REACH</a>
+<a href="#" class="myButton">ACADEMICS</a>
+<style>
+.myButton {
+background-color:#44c767;
+-moz-border-radius:28px;
+-webkit-border-radius:28px;
+border-radius:28px;
+border:1px solid #18ab29;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:17px;
+padding:16px 6px;
+text-decoration:none;
+text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+background-color:#5cbf2a;
+}
+.myButton:active {
+position:relative;
+top:1px;
+}
+</style>-->
 
 
 </div> 
 </body>
 </html>
-
-
